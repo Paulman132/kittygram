@@ -1,5 +1,5 @@
 IP: 84.201.139.198;
-name_taski: полная ссылка (https://taskipaul.ddnsking.com) ;
-name_kittygram: полная ссылка (https://paulkittigram.ddnsking.com) ;
+name_taski: https://taskipaul.ddnsking.com ;
+name_kittygram: https://paulkittigram.ddnsking.com ;
 login: admin20;
 password: popka101;
