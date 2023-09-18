@@ -7,9 +7,8 @@ load_dotenv()
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
-DEBUG = False
-
-ALLOWED_HOSTS = ['84.201.139.198','127.0.0.1', 'localhost', 'paulkittigram.ddnsking.com']
+DEBUG = os.getenv('DEBUG')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(',')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -63,8 +62,6 @@ DATABASES = {
 }
 
 
-# Password validation
-# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
